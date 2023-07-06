@@ -5,7 +5,7 @@ Este repositorio contiene los ejercicios resueltos para la asignatura de NLP de 
 ## Contenido
 
 ### [Ejercicio 1](https://github.com/Federico-Delgado/PLN/tree/main/Ejercicio%201)
-<img src="https://github.com/Federico-Delgado/PLN/blob/main/Imagenes/Ej1.jpg">
+<img src="https://github.com/Federico-Delgado/PLN/blob/main/Imagenes/Ej1.jpg" width="700">
 
 En este ejercicio se implementa la vectorizacion de documentos (Word2Vect) utilizando la libreria NumPy y ademas se tratan los siguientes temas:
 
