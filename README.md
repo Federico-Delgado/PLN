@@ -24,6 +24,6 @@ En este ejercicio se implementa un bot simple para contestar preguntas de enferm
 - Preprocesamiento de datos utilizando Spacy: tokenización y lematización.
 - Transformaciones empleando Bag of Words y One-Hot Encoding.
 - Desarrollo de un modelo DNN con Keras para predecir la clase de pregunta y poder definir una respuesta.
-- En la siguiente imagen se ven los resultados del entrenamiento de la red neuronal.
+- En la siguiente imagen se ven los resultados del entrenamiento de la red neuronal:
 
 <img src="https://github.com/Federico-Delgado/PLN/blob/main/Imagenes/Res_Ej2.jpg" width="700">
