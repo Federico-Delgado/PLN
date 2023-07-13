@@ -1,0 +1,132 @@
+{"intents": [
+  { 
+    "tag": "Bienvenida",
+    "patterns": ["Hola", "Buenas", "Buen dia", "Buenas tardes", "Buenas noches", "¿Qué tal?"],
+    "responses": ["Hola!", "Hola"]
+  },
+
+  {
+    "tag": "Nombre",
+    "patterns": ["¿Cúal es tu nombre?", "¿Quién sos?", "¿Como te llamas?"],
+    "responses": ["Mi nombre es Nora un Chatbot para consultas medicas", "Yo soy Nora un Chatbot medico"]
+  },
+
+   {
+    "tag": "Contacto",
+    "patterns": ["contacto", "número de contacto", "número de teléfono", "número de whatsapp", "whatsapp", "mail"],
+    "responses": ["Podes contactarnos al siguiente <numero>", "Contactos al whatsapp <numero>", "Contactos al mail <mail>"]
+  },
+
+  {
+    "tag": "Cortes",
+    "patterns": ["¿Qué hacer si los cortes?", "¿Cómo curar los cortes?", "¿Qué medicamento aplicar para los cortes?", "¿Qué aplicar en los cortes?", "Cortes"],
+    "responses": ["Lave el corte correctamente para prevenir infecciones y detenga el sangrado aplicando presión durante 1-2 minutos hasta que se detenga el sangrado. Asegurese de que la herida esté húmeda para una curación rápida. Finalmente, cubra el corte con un vendaje estéril."],
+    "context_set": ""
+  },
+
+  {
+    "tag": "Picaduras",
+    "patterns": ["¿Cómo se trata la picadura?", "Picaduras", "¿Qué hacer si te pica?"],
+    "responses": ["Elimine los aguijones de inmediato. Aplicar hielo en el sitio puede proporcionar un alivio leve. Envuelva el hielo en una toalla o mantenga un paño entre el hielo y la piel para evitar que se congele. Tome paracetamol o ibuprofeno para aliviar el dolor según sea necesario. Lávese el sitio de la picadura con agua y jabón. La aplicación de crema de hidrocortisona en la picadura puede ayudar a aliviar el enrojecimiento, la picazón y la hinchazón"],
+    "context_set": ""
+  },
+
+  {
+    "tag": "Esguinces",
+    "patterns": ["¿Cómo se trata un esguince?", "¿Qué hacer si me esguinzo?"],
+    "responses": ["Use una bolsa de hielo o un baño de hielo granizado inmediatamente durante 15 a 20 minutos y repita cada dos o tres horas mientras esté despierto. Para ayudar a detener la hinchazón, comprima el tobillo con una venda elástica hasta que cese la hinchazón. En la mayoría de los casos, el dolor los analgésicos, como el ibuprofeno o el paracetamol son suficientes para controlar el dolor de un esguince de tobillo"],
+    "context_set": ""
+  },
+
+  {
+    "tag": "Fiebre",
+    "patterns": ["¿Cómo se trata una fiebre leve?", "¿Qué hacer si tengo fiebre leve?"],
+    "responses": ["Para tratar la fiebre en casa: 1) Beba muchos líquidos para mantenerse hidratado. 2) Use una manta liviana si siente frío, hasta que pasen los escalofríos. 3) Tome ibuprofeno. 4) Busque ayuda médica si la fiebre dura más de cinco días seguidos o es muy elevada"],
+    "context_set": ""
+  },
+
+  {
+    "tag": "Congestión nasal",
+    "patterns": ["¿Cómo se trata la congestión nasal?", "¿Qué hacer si tengo una congestión nasal?", "¿Cuánto dura la congestión nasal?"],
+    "responses": ["Cuando esté congestionado, concéntrese en mantener húmedos los conductos nasales y los senos paranasales. Para mantener húmedos los conductos nasales, puede: 1) Usar un humidificador o vaporizador. 2) Beber muchos líquidos. Esto diluirá la mucosidad, lo que podría ayudar a prevenir la obstrucción de los senos paranasales. 3) Coloque una toalla húmeda y tibia en la cara. Puede aliviar la incomodidad y abrir las fosas nasales."],
+    "context_set": ""
+  },
+
+  {
+    "tag": "Tos",
+    "patterns": ["¿Cómo curar la tos?", "¿Cómo se trata la tos?", "¿Qué hacer si tengo tos?"],
+    "responses": ["Miel:- Use miel para tratar la tos, mezcle 2 cucharaditas con agua tibia o un té de hierbas. Beba esta mezcla una o dos veces al día. No le dé miel a niños menores de 1 año.", "Jengibre: prepare un té de jengibre relajante agregando 20–40 gramos de rodajas de jengibre fresco a una taza de agua caliente. Deje reposar durante unos minutos antes de beber. Agregue miel o jugo de limón para mejorar el sabor y calmar la tos.", "Líquidos: - Mantenerse hidratado es vital para las personas con tos o resfriado. Las investigaciones indican que beber líquidos a temperatura ambiente puede aliviar la tos, la secreción nasal y los estornudos."],
+    "context_set": ""
+  },
+
+  {
+    "tag": "Dolor de garganta",
+    "patterns": [ "¿Cómo se trata el dolor de garganta?", "¿Qué hacer si me duele la garganta?", "¿Cómo curar el dolor de garganta?"],
+    "responses": ["1) Asegúrese de descansar lo suficiente y beber muchos líquidos. 2) Inhale el vapor, deje correr el agua caliente en una pileta. Cúbrase con una toalla para atrapar el vapor y haga que la persona se incline sobre la pielta con el agua corriendo. Respire profundamente por la boca y la nariz durante 5 a 10 minutos. Repita varias veces al día. 3) Tomé caldo de pollo o té caliente con miel. No le dé miel a un niño menor de 12 meses."],
+    "context_set": ""
+  },
+
+  {
+    "tag": "Moreton",
+    "patterns": ["¿Cómo se tratan los moretones?", "¿Qué hacer si me sale un moretón?", "¿Cómo curar los moretones?"],
+    "responses": ["1) Ponga hielo en el moretón con una bolsa de hielo envuelta en una toalla. 2) Déjelo en su lugar durante 10 a 20 minutos. 3) Repita varias veces al día durante uno o dos días, según sea necesario. 4) Comprima el área golpeada si está hinchado, utilizando una venda elástica."],
+    "context_set": ""
+  },
+
+  {
+    "tag": "Diarrea",
+    "patterns": ["¿Cómo se trata la diarrea?", "¿Qué hacer si tengo diarrea?", "Diarrea"],
+    "responses": ["1) Hidratar el cuerpo es esencial para recuperarse de la diarrea ya que la misma hace que el cuerpo pierda electrolitos como el sodio. 2) Es muy recomendable evitar los productos lácteos, ya que pueden empeorar la diarrea en algunas personas. 3) Si la diarrea dura más de 2 días, busque atención médica para evitar complicaciones."],
+    "context_set": ""
+  },
+
+  {
+    "tag": "Golpe de calor",
+    "patterns": ["¿Cómo se trata el golpe de calor?", "¿Qué hacer si tengo un golpe de calor?"],
+    "responses": ["Mover a la persona a un lugar fresco y sombreado par enfriar el cuerpo. Quitarle la ropa excesiva y aplicar compresas frías en la cabeza, el cuello y las axilas. También es importante beber líquidos frescos, preferiblemente agua. Si la persona no responde, llame al servicio de emergencias inmediatamente."],
+    "context_set": ""
+  },
+
+  {
+    "tag": "Dolor de muela",
+    "patterns": ["¿Qué hacer si me duele la muela?", "¿Curar dolor de muela?"],
+    "responses": ["Para aliviar el dolor de muela, puedes probar lo siguiente: 1) Enjuaga tu boca con agua tibia y sal. 2) Aplica una compresa fría en el área afectada. 3) Evita alimentos y bebidas frías o calientes que puedan empeorar el dolor. Sin embargo, es importante que consultes a un dentista lo antes posible para que pueda evaluar la causa del dolor de muela y proporcionarte el tratamiento adecuado"],
+    "context_set": ""
+  },
+
+  {
+    "tag": "Dolor de cabeza",
+    "patterns": ["¿Cómo se trata un dolor de cabeza?", "¿Qué hacer si tengo un dolor de cabeza?", "¿Cómo curar un dolor de cabeza?"],
+    "responses": ["Tomé ibuprofeno, aspirina o paracetamol para el dolor. Evite el ibuprofeno si la persona tiene insuficiencia cardíaca o insuficiencia renal. No le dé aspirina a un niño menor de 18 años."],
+    "context_set": ""
+  },
+
+  {
+    "tag": "Erupción",
+    "patterns": ["¿Cómo se tratan las erupciones?", "¿Qué hacer si tengo una erupción?", "¿Cómo curar la erupción?"],
+    "responses": ["El aceite de oliva ayuda en la curación y promueve la renovación de la piel dado que contiene vitamina E y antioxidantes. También calma la piel y reduce el picor", "El bicarbonato de sodio es útil para secar las erupciones cutáneas y también para aliviar la picazón y la inflamación.", "Aloe Vera, gracias a sus propiedades antibacterianas, antifúngicas, antiinflamatorias y emolientes, es excelente para tratar una serie de dolencias de la piel incluidas las erupciones."],
+    "context_set": ""
+  },
+
+  {
+    "tag": "RCP",
+    "patterns": ["¿Cómo dar RCP?", "¿Qué hacer en una RCP?", "¿Qué pasos dar en una RCP?"],
+    "responses": ["1) Para un adulto o un niño, coloque la base de una mano en el centro del pecho en la línea de los pezones. También puede empujar con una mano encima de la otra. Para un bebé, coloque dos dedos en el esternón. 2) Para un adulto o un niño, presione hacia abajo al menos 5 centimetros. Asegúrate de no presionar las costillas. Para un bebé, presione hacia abajo aproximadamente 3 centimetros. Asegúrese de no presionar el extremo del esternón. 3) Realice únicamente compresiones torácicas, a un ritmo de 100-120 por minuto o más. Deje que el pecho se eleve por completo entre empujones. 4) Verifique si la persona ha comenzado a respirar."],
+    "context_set": ""
+  },
+
+  {
+    "tag": "Fractura",
+    "patterns": ["¿Cómo se trata una Fractura?", "¿Qué hacer si tengo una Fractura?", "¿Cómo curar una Fractura?"],
+    "responses": ["1) Detenga cualquier sangrado. Aplique presión a la herida con un vendaje estéril, un paño limpio o una prenda de vestir limpia. 2) Inmovilice el área lesionada. No intente realinear el hueso ni empuje un hueso que sobresale hacia atrás. 3) Aplique bolsas de hielo para limitar la hinchazón y ayudar a aliviar el dolor. No aplique hielo directamente sobre la piel. Envuelva el hielo en una toalla, un trozo de tela o algún otro material. 4) Trate el shock. Si la persona se siente mareada o respira de forma corta y rápida, acostar a la persona con la cabeza ligeramente más baja que el tronco y, si es posible, elevar las piernas."],
+    "context_set": ""
+  },
+
+  {
+    "tag": "Despedida",
+    "patterns": [ "Chau", "Hasta luego!", "Adios"],
+    "responses": ["Hasta luego!", "Hablamos luego!"]
+  }
+
+]
+}
