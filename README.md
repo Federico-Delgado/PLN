@@ -24,6 +24,18 @@ En este ejercicio se implementa un bot simple para contestar preguntas de enferm
 - Preprocesamiento de datos utilizando Spacy: tokenización y lematización.
 - Transformaciones empleando Bag of Words y One-Hot Encoding.
 - Desarrollo de un modelo DNN con Keras para predecir la clase de pregunta y poder definir una respuesta.
-- En la siguiente imagen se ven los resultados del entrenamiento de la red neuronal:
+- En la siguiente imagen se ven los resultados del entrenamiento de la red neuronal.
 
 <img src="https://github.com/Federico-Delgado/PLN/blob/main/Imagenes/Res_Ej2.jpg" width="700">
+
+### [Ejercicio 3](https://github.com/Federico-Delgado/PLN/tree/main/Ejercicio%202)
+<img src="https://github.com/Federico-Delgado/PLN/blob/main/Imagenes/Ej3.jpg" width="700">
+
+Se utilizará Gensim para crear embeddings customizados basado en un corpus extraido del primer volúmen del libro "*General Anatomy applied to physiology and medicine*" de Xavier Bichat, los cuáles se obtienen en la página de [Project Gutenberg](https://www.gutenberg.org/ebooks/56118).
+En este notebook se tratan los siguientes temas:
+
+- Preprocesamiento de datos.
+- Creación de vectores empleando Word2Vec de Gensim.
+- Ensayo del modelo empleando el método `most_similar` de Gensim para encontrar las palabras que más se relacionan con ciertas palabras de entrada.
+- Visualización de agrupación de vectores.
+- Operaciones con embeddings, realizando tests de analogía.
