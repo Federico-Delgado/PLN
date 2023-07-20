@@ -28,7 +28,7 @@ En este ejercicio se implementa un bot simple para contestar preguntas de enferm
 
 <img src="https://github.com/Federico-Delgado/PLN/blob/main/Imagenes/Res_Ej2.jpg" width="700">
 
-### [Ejercicio 3](https://github.com/Federico-Delgado/PLN/tree/main/Ejercicio%202)
+### [Ejercicio 3](https://github.com/Federico-Delgado/PLN/tree/main/Ejercicio%203)
 <img src="https://github.com/Federico-Delgado/PLN/blob/main/Imagenes/Ej3.jpg" width="700">
 
 Se utilizará Gensim para crear embeddings customizados basado en un corpus extraido del primer volúmen del libro "*General Anatomy applied to physiology and medicine*" de Xavier Bichat, los cuáles se obtienen en la página de [Project Gutenberg](https://www.gutenberg.org/ebooks/56118).
