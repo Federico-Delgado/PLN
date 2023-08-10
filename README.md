@@ -56,7 +56,7 @@ Ademas se tratan los siguientes temas:
 
 <img src="https://github.com/Federico-Delgado/PLN/blob/main/Imagenes/Ej5.jpg" width="700">
 
-En este notebook se utilizan las críticas de compradores de ropa del dataset de Kaggle [Women's E-Commerce Clothing Reviews](https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews) para que el sistema determine la evaluación del comprador y su crítica (cuantas estrellas le asigna al producto).
+En este notebook se utilizan las críticas de compradores de ropa del dataset de Kaggle [Women's E-Commerce Clothing Reviews](https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews) para que el sistema determine la evaluación del comprador.
 
 En particular se tratan los siguientes temas:
 
