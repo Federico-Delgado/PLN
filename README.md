@@ -62,6 +62,6 @@ En particular se tratan los siguientes temas:
 
 - Preprocesamiento de datos.
 - División de los datos en set de entrenamiento y testeo. Se realiza oversampling al set de entrenamiento para tratar el desbalance de clases. 
-- Entrenamiento de un modelo con Keras con capas de Embedding, capas LSTM bidireccionales, capas de dropout y capas densas.
+- Entrenamiento de un modelo con Keras con capas de Embedding, capas LSTM, capas de dropout y capas densas.
 - Entrenamiento de un modelo con Keras con capas de Embedding FastText, capas LSTM, capas de dropout y capas densas.
 - Predicción del rating para diferentes reseñas de testeo empleando ambos modelos.
