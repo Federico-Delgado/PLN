@@ -56,12 +56,24 @@ Ademas se tratan los siguientes temas:
 
 <img src="https://github.com/Federico-Delgado/PLN/blob/main/Imagenes/Ej5.jpg" width="700">
 
-En este notebook se utilizan las críticas de compradores de ropa del dataset de Kaggle [Women's E-Commerce Clothing Reviews](https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews) para que el sistema determine la evaluación del comprador.
+En este notebook se utilizan las críticas de compradores de ropa del dataset de Kaggle [Women's E-Commerce Clothing Reviews](https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews) para que el sistema determine la evaluación del comprador y su crítica (cuantas estrellas le asigna al producto).
 
 En particular se tratan los siguientes temas:
 
 - Preprocesamiento de datos.
 - División de los datos en set de entrenamiento y testeo. Se realiza oversampling al set de entrenamiento para tratar el desbalance de clases. 
-- Entrenamiento de un modelo con Keras con capas de Embedding, capas LSTM, capas de dropout y capas densas.
+- Entrenamiento de un modelo con Keras con capas de Embedding, capas LSTM bidireccionales, capas de dropout y capas densas.
 - Entrenamiento de un modelo con Keras con capas de Embedding FastText, capas LSTM, capas de dropout y capas densas.
 - Predicción del rating para diferentes reseñas de testeo empleando ambos modelos.
+
+### [Ejercicio 6](https://github.com/Federico-Delgado/PLN/tree/main/Ejercicio%206)
+
+<img src="https://github.com/Federico-Delgado/PLN/blob/main/Imagenes/Ej6.jpg" width="700">
+
+En este notebook se crea de un bot capaz de responder a preguntas del usuario (Q&A) empleando [datos disponibles del challenge ConvAI2 (Conversational Intelligence Challenge 2) de conversaciones en inglés](http://convai.io/data/).
+En particular, se tratan los siguientes temas:
+
+- Preprocesamiento de datos para obtener word2idx, max_input_len, max_out_len y num_words_output empleando el Tokenizer de Keras. Padding  necesario para obtener encoder_input_sequences, decoder_output_sequences, decoder_targets. One Hot Encoding de los valores de salida del decoder.
+- Empleo de embeddings de FastText para transformar los tokens de entrada en vectores. 
+- Entrenamiento de un modelo basado en el esquema Seq2Seq con encoder-decoder usando Keras.
+- Evaluación de conversaciones entre usuario y bot.
